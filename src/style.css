@@ -1,6 +1,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+  --branding-color: #f9f7fe;
   --box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 400px) {
@@ -8,6 +9,9 @@
   .about-me,
   .contact {
     font-size: 50px !important;
+  }
+  .hero {
+    background-color: var(--branding-colors);
   }
   .mail {
     font-size: 15px !important;
